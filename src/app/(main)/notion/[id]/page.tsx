@@ -1,4 +1,4 @@
-import { currentUser } from "@/app/next/auth/data";
+import { currentUser } from "@/app/server/auth/data";
 import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
 import NoteDetail from "../components/NoteDetail";

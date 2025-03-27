@@ -40,6 +40,7 @@ app.get("/notes", async (c) => {
   if (error) {
     return c.json({ error: error.message }, 500);
   }
+  console.log("🔥🔥🔥note一覧取得API🔥🔥🔥", data);
 
   return c.json({ data });
 });
