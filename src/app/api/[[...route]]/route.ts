@@ -96,7 +96,7 @@ app.post("/notes", async (c) => {
   if (error) {
     return c.json({ error: error.message }, 500);
   }
-
+  console.log("🔥🔥🔥ノート作成API🔥🔥🔥", data);
   return c.json({ data });
 });
 
@@ -124,7 +124,7 @@ app.put("/notes/:id", async (c) => {
   if (error) {
     return c.json({ error: error.message }, 500);
   }
-
+  console.log("🔥🔥🔥ノート更新API🔥🔥🔥", data);
   return c.json({ data });
 });
 
@@ -187,7 +187,7 @@ app.delete("/notes/:id", async (c) => {
   if (error) {
     return c.json({ error: error.message }, 500);
   }
-
+  console.log("🔥🔥🔥ノート削除API🔥🔥🔥");
   return c.json({ success: true });
 });
 
