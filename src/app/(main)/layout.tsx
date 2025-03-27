@@ -7,7 +7,8 @@ import { createClient } from "@/lib/supabase/server";
 import { ThemeProvider } from "next-themes";
 import { redirect } from "next/navigation";
 import { Toaster } from "sonner";
-import { currentUser } from "../next/auth/data";
+
+import { currentUser } from "../server/auth/data";
 import { NotionSidebar } from "./notion/components/NotionSidebar";
 
 export default async function NotionLayout({

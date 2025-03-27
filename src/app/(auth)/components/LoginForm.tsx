@@ -1,6 +1,6 @@
 "use client";
 
-import { login } from "@/app/next/auth/action";
+import { login } from "@/app/server/auth/action";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";

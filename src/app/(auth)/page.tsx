@@ -1,5 +1,5 @@
-import { currentUser } from "@/app/next/auth/data";
 import { redirect } from "next/navigation";
+import { currentUser } from "../server/auth/data";
 import { LoginForm } from "./components/LoginForm";
 
 export default async function Login() {

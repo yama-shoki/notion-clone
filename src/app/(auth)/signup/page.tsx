@@ -1,4 +1,4 @@
-import { currentUser } from "@/app/next/auth/data";
+import { currentUser } from "@/app/server/auth/data";
 import { redirect } from "next/navigation";
 import { SignUpForm } from "../components/SignUpForm";
 
